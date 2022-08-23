@@ -8,21 +8,18 @@ export const GlobalStyled = createGlobalStyle`
     }
 
     :root{
-        --moderate-blue: hsl(238,40%, 52%);
-        --soft-red: hsl(358, 79%, 66%);
-        --light-grayish-blue: hsl(239, 57%, 85%);
-        --palered: hsl(357, 100%, 86%);
-        /* neutral colors  */
-        --dark-blue: hsl(212, 24%, 26%);
-        --grayish-blue: hsl(211, 10%, 45%);
-        --light-gray: hsl(223, 19%, 93%);
-        --very-light-gray: hsl(228, 33%, 97%);
-        --white: hsl(0, 0%, 100%);
+        --color-dark-blue: hsl(209,23%,22%);
+        --color-very-dark-blue-dark: hsl(207,26%,17%);
+        --color-very-dark-blue-light: hsl(200, 15%,8%);
+        --color-dark-gray-light: hsl(0,0%,52%);
+        --color-very-light-gray-light-bg: hsl(0,0%,98%);
+        --color-white-dark-mode: hsl(0,0%,100%);
     }
 
     body{
-        font-family: 'Rubik', sans-serif;
-        font-weight: 400;
-        background-color: var(--light-gray);
+        font-family: 'Nunito Sans', sans-serif;
+        background-color: var(--color-very-dark-blue-dark);
+        color: var(--color-white-dark-mode);
+        overflow-x: hidden;
     }
 `
