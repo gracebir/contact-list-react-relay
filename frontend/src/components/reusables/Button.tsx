@@ -20,7 +20,7 @@ const ButtonStyled = styled.button`
     font-weight: bold;
     border-radius: 50px;
     cursor: pointer;
-    transition: ease-in-out .5s;
+    transition: ease-in-out .3s;
     &:hover{
         background-color: hsl(208, 24%, 16%);
     }
