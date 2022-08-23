@@ -14,6 +14,8 @@ export const GlobalStyled = createGlobalStyle`
         --color-dark-gray-light: hsl(0,0%,52%);
         --color-very-light-gray-light-bg: hsl(0,0%,98%);
         --color-white-dark-mode: hsl(0,0%,100%);
+        --color-red-error: hsl(0, 98%, 26%);
+        --color-focus-input: hsl(148, 89%, 19%);
     }
 
     body{
