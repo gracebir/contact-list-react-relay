@@ -22,9 +22,9 @@ const BannerText = styled.p`
     text-align: center ;
 
     @media (min-width: 45rem) {
-        font-size: 6em;
+        font-size: 5em;
         text-align: start;
-        width: 90%;
+        width: 85%;
     }
 `;
 
