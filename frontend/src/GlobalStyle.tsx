@@ -9,19 +9,22 @@ export const GlobalStyled = createGlobalStyle`
 
     :root{
         --color-dark-blue: hsl(209,23%,22%);
-        --color-very-dark-blue-dark: hsl(207,26%,17%);
-        --color-very-dark-blue-light: hsl(200, 15%,8%);
-        --color-dark-gray-light: hsl(0,0%,52%);
+        --color-very-dark-blue-dark: hsl(0, 1%, 13%);
+        --color-very-dark-very: hsl(0, 1%, 11%);
+        --color-dark-gray-light: hsl(211, 0%, 89%);
         --color-very-light-gray-light-bg: hsl(0,0%,98%);
-        --color-white-dark-mode: hsl(0,0%,100%);
         --color-red-error: hsl(0, 98%, 26%);
         --color-focus-input: hsl(148, 89%, 19%);
+        --color-white-dark-mode: hsl(0, 33%, 99%);
     }
 
     body{
-        font-family: 'Nunito Sans', sans-serif;
+        /* font-family: 'Fraunces', serif; */
+        font-family: 'Montserrat', sans-serif;
         background-color: var(--color-very-dark-blue-dark);
         color: var(--color-white-dark-mode);
         overflow-x: hidden;
+        height: 100vh;
+        width: 100%
     }
 `
