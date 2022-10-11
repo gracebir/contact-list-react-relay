@@ -13,6 +13,8 @@ export const GlobalStyled = createGlobalStyle`
         --color-very-dark-very: hsl(0, 1%, 11%);
         --color-dark-gray-light: hsl(211, 0%, 89%);
         --color-very-light-gray-light-bg: hsl(0,0%,98%);
+        --color-red-error: hsl(0, 98%, 26%);
+        --color-focus-input: hsl(148, 89%, 19%);
         --color-white-dark-mode: hsl(0, 33%, 99%);
     }
 
